@@ -46,7 +46,6 @@ function App() {
       <table>
         <thead>
           <tr>
-            <th scope="col">id</th>
             <th scope="col">nome</th>
             <th scope="col">foto</th>
             <th scope="col">cor</th>
@@ -57,7 +56,6 @@ function App() {
         <tbody>
           {filteredProducts?.map(product => (
             <tr key={product.id}>
-              <td>{product.id}</td>
               <td>{product.name}</td>
               <td>
                 <img src={product.id === 1 ? require('./assets/notebook-test.png'):
