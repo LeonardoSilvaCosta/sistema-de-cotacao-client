@@ -2,7 +2,7 @@
 <p align="center">Um sistema desenvolvido para uma proposta freelancer personalizada</p>
 <img src="https://img.shields.io/static/v1?label=React&message=Work&color=5EC0DB&style=for-the-badge&logo=React">
 
-List de Conteúdos
+Lista de Conteúdos
 =================
 <!--ts-->
    * [Sohre](#Sobre)
