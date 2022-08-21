@@ -13,7 +13,7 @@ Lista de Conteúdos
 
 ---
 
-### 💻 Sohre
+### 💻 Sobre
 
 Um sistema desenvolvido para uma proposta freelancer personalizada.
 
