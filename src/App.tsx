@@ -21,7 +21,7 @@ function App() {
 
   useEffect(() => {
     async function getProducts() {
-      fetch("http://localhost:8080/products")
+      fetch("http://sistemadecotacaodemo-env.eba-kixxdihe.us-east-1.elasticbeanstalk.com/products")
         .then((response) => response.json())
         .then((data) => setProducts(data));
     }
