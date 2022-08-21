@@ -35,11 +35,9 @@ HOME
 
 ---
 
-### for test
+### backend github link
 
-BASE_URL=http://criptocurrencyapi-env-1.eba-ccqmhvnh.us-east-1.elasticbeanstalk.com
 
-GET /criptoCurrencies - lista todas as criptomoedas da API
 
 ---
 
