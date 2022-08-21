@@ -10,9 +10,15 @@ label {
 }
 
 input {
-  width: 20%;
+  min-width: 15rem;
   padding: 0.4rem 0.4rem;
   font-size: 1rem;
+}
+
+ @media (max-width: 576px) {
+  input {
+    width: 100%;
+  }
 }
 
 table {
