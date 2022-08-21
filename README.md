@@ -5,7 +5,7 @@
 Lista de Conteúdos
 =================
 <!--ts-->
-   * [Sohre](#Sobre)
+   * [Sobre](#Sobre)
    * [Features](#features)
    * [Tecnologias](#tecnologias)
    * [Autor](#autor)
