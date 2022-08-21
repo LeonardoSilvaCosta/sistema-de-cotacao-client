@@ -1,6 +1,6 @@
 <h1 align="center">Sistema de cotação demo</h1>
 <p align="center">Um sistema desenvolvido para uma proposta freelancer personalizada</p>
-<img src="https://img.shields.io/static/v1?label=Spring&message=Work&color=6DB33F&style=for-the-badge&logo=React">
+<img src="https://img.shields.io/static/v1?label=React&message=Work&color=6DB33F&style=for-the-badge&logo=React">
 
 Table of contents
 =================
