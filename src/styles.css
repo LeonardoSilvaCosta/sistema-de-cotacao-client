@@ -1,12 +1,20 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #f5f5f5;
+
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1300px;
+  margin: 1em;
+}
+
 .search-box {
   display: flex;
   justify-content: flex-end;
-  padding-right: 1rem;
   margin-top: 1.5rem;
-}
-
-label {
-  margin-right: 1rem;
 }
 
 input {
@@ -15,38 +23,47 @@ input {
   font-size: 1rem;
 }
 
- @media (max-width: 576px) {
+@media (max-width: 576px) {
   input {
     width: 100%;
   }
 }
 
-table {
-  min-width: 100%;
-  margin: 25px 0;
-  font-size: 0.9rem;
+.cardContainer {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+@media(max-width: 996px) {
+  .cardContainer {
+    justify-content: space-evenly;
+  }
+}
+
+.card {
+  height: 25rem;
+  width: 14.25rem;
+  background: #fff;
+  margin: 1rem;
+
+  border-radius: 16px;
+  border: none;
+
   font-family: sans-serif;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
-  text-align: center;
+  font-size: 0.9rem;
 }
 
-th {
-  background-color: #009879;
-    color: #ffffff;
+img {
+  width: 13rem;
+  padding: 1.5rem 0;
 }
 
-th, td {
-  padding: 12px 15px;
+.descriptionContainer {
+  padding: 0 1.5rem;
+  font-weight: bold;
 }
 
-tbody tr {
-  border-bottom: 1px solid #dddddd;
-}
-
-tbody tr:nth-of-type(even) {
-  background-color: #f3f3f3;
-}
-
-tbody tr:last-of-type {
-  border-bottom: 2px solid #009879;
+p {
+  margin: 1.4rem 0;
 }
