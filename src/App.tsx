@@ -48,9 +48,8 @@ function App() {
 
       <div className="cardContainer">
         {filteredProducts.map((product) => (
-          <>
             <div className="card" key={product.id}>
-              <img src={require("./assets/notebook-test.png")} alt="" />
+              <img src={require('' + product.photo) } alt="" />
               <div className="descriptionContainer">
                 <p className="title">
                   {`${product.name} ${product.color} 
@@ -59,29 +58,6 @@ function App() {
                 <p className="price">{product.sku}</p>
               </div>
             </div>
-
-            <div className="card" key={product.id}>
-              <img src={require("./assets/tv-test.png")} alt="" />
-              <div className="descriptionContainer">
-                <p className="title">
-                  {`${product.name} ${product.color} 
-  ${product.dimensions.width} x ${product.dimensions.height}`}
-                </p>
-                <p className="price">{product.sku}</p>
-              </div>
-            </div>
-
-            <div className="card" key={product.id}>
-              <img src={require("./assets/tv-test.png")} alt="" />
-              <div className="descriptionContainer">
-                <p className="title">
-                  {`${product.name} ${product.color} 
-                ${product.dimensions.width} x ${product.dimensions.height}`}
-                </p>
-                <p className="price">{product.sku}</p>
-              </div>
-            </div>
-          </>
         ))}
       </div>
     </div>
