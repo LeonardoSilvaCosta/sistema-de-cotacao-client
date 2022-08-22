@@ -27,6 +27,7 @@ HOME
 - [ ] Filtrar produtos por categoria
 - [ ] Adicionar produto ao orçamento
 - [ ] Listar dados do revendedor (estado, quantidade, tipo de consumidor, contribuinte, ICMS, IPI, Partilha de estado, margem de lucro, Comissão, Resultado (Preço base e preço final)
+- [x] Layout responsivo
 
 ### 🛠 Technologies
 
@@ -37,7 +38,7 @@ HOME
 
 ### test application
 
-https://63021a367d001a01c9fa16b5--warm-melba-18e4e1.netlify.app/
+https://warm-melba-18e4e1.netlify.app/
 
 ---
 
